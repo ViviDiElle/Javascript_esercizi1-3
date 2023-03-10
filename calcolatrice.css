@@ -1,0 +1,42 @@
+.tasto {
+    background-color: palevioletred;
+    color: antiquewhite;
+    border-color: blueviolet;
+    border-width: 7px;
+    font-weight: bold;
+    font-size: medium;
+    margin: 4px 2px;
+    height: 40px;
+    width: 46px;
+}
+
+.tasto-uguale {
+    width: 210px;
+    background-color: palevioletred;
+    color: antiquewhite;
+    border-color: blueviolet;
+    border-width: 7px;
+    font-weight: bold;
+    font-size: medium;
+    margin: 4px 2px;
+}
+
+.display {
+    width: 190px;
+    background-color: pink;
+    color: blueviolet;
+    border-color: blueviolet;
+    border-width: 7px;
+    font-weight: bold;
+    font-size: medium;
+    margin: 4px 2px;
+}
+
+.tasto:hover {
+    background-color: yellowgreen;
+}
+
+.tasto-uguale:hover {
+    background-color: rgb(4, 196, 4);
+}
+

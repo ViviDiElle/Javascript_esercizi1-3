@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calcolatrice.css">
+    <script src="calcolatrice.js"> </script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <input type="text" id="operazioni" class="display" readonly="readonly">
+    </div>
+    <div class="content">
+        <input type="submit" value="7" id="7" class="tasto" onclick="n(this.id)">
+        <input type="submit" value="8" id="8" class="tasto" onclick="n(this.id)">
+        <input type="submit" value="9" id="9" class="tasto" onclick="n(this.id)">
+        <input type="submit" value="/" id="/" class="tasto" onclick="n(this.id)">
+    </div>
+    <div class="content">
+        <input type="submit" value="4" id="4" class="tasto" onclick="n(this.id)">
+        <input type="submit" value="5" id="5" class="tasto" onclick="n(this.id)">
+        <input type="submit" value="6" id="6" class="tasto" onclick="n(this.id)">
+        <input type="submit" value="x" id="x" class="tasto" onclick="n(this.id)">
+    </div>
+    <div class="content">
+        <input type="submit" value="3" id="3" class="tasto" onclick="n(this.id)">
+        <input type="submit" value="2" id="2" class="tasto" onclick="n(this.id)">
+        <input type="submit" value="1" id="1" class="tasto" onclick="n(this.id)">
+        <input type="submit" value="-" id="-" class="tasto" onclick="n(this.id)">
+    </div>
+    <div class="content">
+        <input type="submit" value="C" id="C" class="tasto" onclick="cancella()">
+        <input type="submit" value="0" id="0" class="tasto" onclick="n(this.id)">
+        <input type="submit" value="." id="." class="tasto" onclick="n(this.id)">
+        <input type="submit" value="+" id="+" class="tasto" onclick="n(this.id)">
+    </div>
+    <div class="content">
+        <button value="=" class="tasto-uguale" onclick="operazione"> = </button>
+    </div>
+    
+</body>
+</html>
